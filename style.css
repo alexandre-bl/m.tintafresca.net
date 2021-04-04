@@ -16,8 +16,6 @@
     --light-color:   #fff;
     --font:          Arial;
 
-    --h2-margin:     1em;
-
     --header-title-size: 3em;
     --post-title-size:   3em;
 
@@ -30,11 +28,6 @@ body, html {
     padding: 0;
 
     font-family: var(--font);
-}
-
-h2 {
-    margin-top: var(--h2-margin);
-    margin-bottom: var(--h2-margin);
 }
 
 #header {
@@ -61,7 +54,7 @@ h2 {
     width: 90%;
 
     border-bottom: 2px solid var(--primary-color);
-    padding-bottom: var(--h2-margin);
+    padding-bottom: 2em;
 }
 
 .post_link {
