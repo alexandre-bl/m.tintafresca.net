@@ -45,6 +45,7 @@ body, html {
 #title {
     font-size: var(--header-title-size);
 
+    float: right;
     text-align: right;
     margin: 0;
 }
