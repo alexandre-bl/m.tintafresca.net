@@ -35,10 +35,14 @@ body, html {
     position: sticky;
     top: 0;
 
+    padding: 1em;
+
     color: var(--light-color);
     background-color: var(--primary-color);
 }
 
 #title {
     font-size: var(--title-size);
+
+    margin: 0;
 }
