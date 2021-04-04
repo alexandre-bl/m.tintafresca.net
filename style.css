@@ -12,8 +12,9 @@
 :root {
 
     --primary-color: #000;
-    --dark-color: #000;
-    --light-color: #fff
+    --dark-color:    #000;
+    --light-color:   #fff;
+    --font:          Arial;
 
 }
 
@@ -22,6 +23,8 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    
+    font-family: var(--font);
 }
 
 
