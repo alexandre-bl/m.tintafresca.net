@@ -19,7 +19,7 @@ function get_edition($date=null) {
 
     }
 
-    $edition = $year*12 + $month - 24011;
+    $edition = $year*12 + $month - 24009;
 
     return $edition;
 
