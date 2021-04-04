@@ -53,7 +53,7 @@ body, html {
     top: 0;
     left: 0;
 
-    transform: translate(10%, 10%);
+    transform: translate(5%, 10%);
 
     height: 80%;
     max-height: 100%;
@@ -69,7 +69,7 @@ body, html {
     top: 0;
     left: 2%;
 
-    transform: translate(35%, -50%);
+    transform: translate(45%, -100%);
 }
 
 #edition {
