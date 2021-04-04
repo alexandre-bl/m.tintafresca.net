@@ -19,6 +19,9 @@ function get_edition($date=null) {
 
     }
 
+    echo $year;
+    echo " ".$month."<\br>";
+
     $edition = (int) $year*12 + (int) $month - 24011;
 
     return $edition;

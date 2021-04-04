@@ -57,9 +57,7 @@
                 )
             );
 
-            foreach( $posts as $post ) { 
-            
-                echo get_edition( get_the_date("%Y %m") );
+            foreach( $posts as $post ) {
 
                 if( get_edition() == get_edition( get_the_date("%Y %m") ) ) { ?>
 
