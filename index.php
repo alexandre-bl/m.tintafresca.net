@@ -1,5 +1,7 @@
 <?php
 
+    require_once __DIR__ . "/handy.php";
+
     $title = get_bloginfo( 'name' );
     $meta_img = get_site_icon_url();
     if( is_single() ) {
@@ -55,23 +57,27 @@
                 )
             );
 
-            foreach( $posts as $post ) { ?>
+            foreach( $posts as $post ) { 
+            
+                if( get_edition() == get_edition( $post->post_date ) ) { ?>
 
-                <div class="post">
-                <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
+                    <div class="post">
+                    <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
 
-                    <h2 class="post_title"><?php echo $post->post_title; ?></h2>
+                        <h2 class="post_title"><?php echo $post->post_title; ?></h2>
 
-                    <img class="post_img" src="<?php 
-                        echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
-                    ?>">
+                        <img class="post_img" src="<?php 
+                            echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
+                        ?>">
 
-                    <div class="desc"></div>
+                        <div class="desc"></div>
 
-                </a>
-                </div>
+                    </a>
+                    </div>
 
-            <?php }
+                } <?php
+                
+            }
 
         ?> </div>
 
