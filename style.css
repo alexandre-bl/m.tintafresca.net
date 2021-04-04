@@ -67,3 +67,7 @@ body, html {
 .post_title {
     font-size: var(--post-title-size);
 }
+
+.post_img {
+    width: 100%;
+}

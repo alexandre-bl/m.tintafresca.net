@@ -66,7 +66,7 @@
                         echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
                     ?>">
 
-                    <div class="post_title"></div>
+                    <div class="desc"></div>
 
                 </a>
                 </div>
