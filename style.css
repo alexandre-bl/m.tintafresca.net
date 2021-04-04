@@ -49,6 +49,15 @@ body, html {
     margin: 0;
 }
 
+.post {
+
+    width: 90%;
+
+    border-top:    2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+
+}
+
 .post_title {
 
     font-size: var(--post-title-size);
