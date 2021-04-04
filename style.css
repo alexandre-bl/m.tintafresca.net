@@ -64,9 +64,9 @@ body, html {
 
     position: absolute;
     top: 0;
-    right: 80%;
+    right: 2%;
 
-    transform: translate(-40%, 10%);
+    transform: translate(-50%, -50%);
 }
 
 #edition {
