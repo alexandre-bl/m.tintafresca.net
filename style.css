@@ -16,7 +16,7 @@
     --light-color:   #fff;
     --font:          Arial;
 
-    --header-height: 50px;
+    --header-height: 75px;
 
     --header-title-size: 3em;
     --header-text-size:  2em;
@@ -87,6 +87,20 @@ body, html {
 }
 
 #diretor {
+
+    position: absolute;
+    top: 25%;
+    left: 47%;
+
+    transform: translate(0, -50%);
+    
+    margin: 0;
+
+    font-size: var(--header-text-size);
+
+}
+
+#data {
 
     position: absolute;
     top: 25%;

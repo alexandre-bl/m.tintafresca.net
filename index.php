@@ -2,6 +2,7 @@
 
     require_once __DIR__ . "/handy.php";
 
+    $date    = getdate();
     $logo_id = get_theme_mod( 'custom_logo' );
     $logo = wp_get_attachment_image_src( $logo_id , 'full' )[0];
     $editor  = get_users( [ 'role__in' => [ 'editor' ] ] )[0]->display_name;
@@ -57,6 +58,8 @@
             <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
 
             <p  id="diretor"> Diretor: <?php echo $editor; ?> </p>
+
+            <p  id="data"> Data: <?php echo $date; ?> </p>
 
         </div>
 
