@@ -62,8 +62,11 @@ body, html {
 #title {
     font-size: var(--header-title-size);
 
-    text-align: right;
-    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 80%;
+
+    transform: translate(-40%, 10%);
 }
 
 #edition {
