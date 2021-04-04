@@ -61,7 +61,7 @@ h1 {
     width: 90%;
 
     border-bottom: 2px solid var(--primary-color);
-    padding-bottom: 1em;
+    padding-bottom: var(--h1-margin);
 }
 
 .post_link {
