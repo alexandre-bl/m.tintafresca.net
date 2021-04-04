@@ -2,6 +2,7 @@
 
     require_once __DIR__ . "/handy.php";
 
+    $editor  = get_users( [ 'role__in' => [ 'editor' ] ] )[0]->display_name;
     $title = get_bloginfo( 'name' );
     $meta_img = get_site_icon_url();
     if( is_single() ) {
@@ -49,6 +50,8 @@
             <h1 id="title"> <?php echo $title ?> </h1>
 
             <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
+
+            <p  id="diretor"> Diretor: <?php echo $editor; ?> </p>
 
         </div>
 

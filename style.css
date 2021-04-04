@@ -58,7 +58,20 @@ body, html {
 
     transform: translate(-50%, -50%);
 
-    text-align: center;
+    margin: 0;
+
+    font-size: var(--header-text-size);
+
+}
+
+#diretor {
+
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+    transform: translate(-50%, -50%);
+    
     margin: 0;
 
     font-size: var(--header-text-size);
