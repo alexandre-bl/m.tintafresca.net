@@ -16,7 +16,8 @@
     --light-color:   #fff;
     --font:          Arial;
 
-    --title-size:    3em;
+    --header-title-size: 3em;
+    --post-title-size:   2em;
 
 }
 
@@ -46,4 +47,10 @@ body, html {
 
     text-align: right;
     margin: 0;
+}
+
+.post_title {
+
+    font-size: var(--post-title-size);
+
 }
