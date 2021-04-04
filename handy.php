@@ -4,7 +4,7 @@ function get_edition($date=null) {
 
     if( empty($date) ) {
 
-        $date = getdate()
+        $date = getdate();
 
     }
 
