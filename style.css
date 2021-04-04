@@ -58,6 +58,13 @@ body, html {
 
 }
 
+.post_link {
+
+    width: 100%;
+    height: 100%;
+
+}
+
 .post_title {
 
     font-size: var(--post-title-size);

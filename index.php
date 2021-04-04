@@ -57,7 +57,8 @@
 
             foreach( $posts as $post ) { ?>
 
-                <a class="post" href="<?php echo get_post_permalink($post->ID); ?>">
+                <div class="post">
+                <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
 
                     <h2 class="post_title"><?php echo $post->post_title; ?></h2>
 
@@ -66,6 +67,7 @@
                     <div class="post_title"></div>
 
                 </a>
+                </div>
 
             <?php }
 
