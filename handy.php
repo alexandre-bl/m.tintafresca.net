@@ -15,11 +15,11 @@ function get_edition($date=null) {
     } else {
 
         $year  = (int) explode( " ", $date )[0];
-        $month = (int) explode( " ", $date )[1];
+        $month = (int) explode( " ", $date )[1] + 3;
 
     }
 
-    $edition = $year*12 + $month - 24009;
+    $edition = $year*12 + $month - 24011;
 
     return $edition;
 
