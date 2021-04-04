@@ -48,6 +48,29 @@
 
         </div>
 
+        <div id="posts"> <?php
+
+            $posts = get_posts( array(
+                'numberposts' => -1 
+                )
+            );
+
+            foreach( $posts as $post ) { ?>
+
+                <div class="post">
+
+                    <div class="post_title"><?php echo $post->post_title ?></div>
+
+                    <img class="post_img">
+
+                    <div class="post_title"></div>
+
+                </div>
+
+            <?php }
+
+        ?> </div>
+
     </body>
 
 </html>
