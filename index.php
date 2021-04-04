@@ -59,7 +59,7 @@
 
             foreach( $posts as $post ) { 
             
-                if( get_edition() == get_edition( $post->post_date ) ) { ?>
+                if( get_edition() == get_edition( get_the_date("%Y %m") ) ) { ?>
 
                     <div class="post">
                     <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
