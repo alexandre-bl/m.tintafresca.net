@@ -14,8 +14,8 @@ function get_edition($date=null) {
 
     } else {
 
-        $year  = array_slice( (array) $date, 0, 4 );
-        $month = array_slice( (array) $date, 5, 2 );
+        $year  = array_slice( $date, 0, 4 );
+        $month = array_slice( $date, 5, 2 );
 
     }
 
