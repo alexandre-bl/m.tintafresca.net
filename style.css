@@ -8,3 +8,20 @@
     License URI: https://tintafresca.net/wp-content/themes/m.tintafresca.net/LICENSE
     Text Domain: m-tintafresca
 */
+
+:root {
+
+    --primary-color: #000;
+    --dark-color: #000;
+    --light-color: #fff
+
+}
+
+#header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+    color: var(--light-color);
+    background-color: var(--primary-color);
+}
