@@ -49,7 +49,10 @@
 
         <div id="header">
 
-            <a href="<?php echo get_site_url(); ?>"><img id="icon" src="<?php echo $logo; ?>"></a>
+            <a href="<?php echo get_site_url(); ?>">
+                <img id="icon" src="<?php echo $logo; ?>">
+                <h1 id="title"><?php echo $title; ?></h1>
+            </a>
 
             <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
 
