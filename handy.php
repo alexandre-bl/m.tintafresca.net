@@ -14,13 +14,10 @@ function get_edition($date=null) {
 
     } else {
 
-        $year  = array_slice( (array) $date, 0, 4 );
-        $month = array_slice( (array) $date, 5, 2 );
+        $year  = (string) array_slice( (array) $date, 0, 4 );
+        $month = (string) array_slice( (array) $date, 5, 2 );
 
     }
-
-    echo $year;
-    echo " ".$month."<\br>";
 
     $edition = (int) $year*12 + (int) $month - 24011;
 
