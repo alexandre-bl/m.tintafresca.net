@@ -48,7 +48,7 @@
 
             <h1 id="title"> <?php echo $title ?> </h1>
 
-            <p  id="edition"> <?php echo get_edition(); ?> </p>
+            <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
 
         </div>
 
