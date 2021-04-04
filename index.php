@@ -48,6 +48,8 @@
 
             <h1 id="title"> <?php echo $title ?> </h1>
 
+            <p  id="edition"> <?php echo get_edition(); ?> </p>
+
         </div>
 
         <div id="posts"> <?php
@@ -61,25 +63,25 @@
 
             foreach( $posts as $post ) {
 
-                if( get_edition() == get_edition( get_the_date("Y m") ) or $i < 15 ) { ?>
+                if( get_edition() == get_edition( get_the_date("Y m") ) or $i < 15 ) {
+                    
+                    ?> <div class="post">
 
-                    <div class="post">
-                    <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
+                        <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
 
-                        <h2 class="post_title"><?php echo $post->post_title; ?></h2>
+                            <h2 class="post_title"><?php echo $post->post_title; ?></h2>
 
-                        <img class="post_img" src="<?php 
-                            echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
-                        ?>">
+                            <img class="post_img" src="<?php 
+                                echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
+                            ?>">
 
-                        <div class="desc"></div>
+                            <div class="desc"></div>
 
-                    </a>
-                    </div>
+                        </a>
 
-                <?php 
+                    </div> <?php 
                 
-                $i += 1;
+                    $i += 1;
 
                 }
                 

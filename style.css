@@ -49,6 +49,13 @@ body, html {
     margin: 0;
 }
 
+#edition {
+
+    text-align: center;
+    margin: 0;
+
+}
+
 .post {
     margin: auto;
     width: 90%;
