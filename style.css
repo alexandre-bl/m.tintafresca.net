@@ -17,6 +17,7 @@
     --font:          Arial;
 
     --header-title-size: 3em;
+    --header-text-size:  2em;
     --post-title-size:   3em;
 
 }
@@ -45,15 +46,22 @@ body, html {
 #title {
     font-size: var(--header-title-size);
 
-    float: right;
     text-align: right;
     margin: 0;
 }
 
 #edition {
 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
     text-align: center;
     margin: 0;
+
+    font-size: var(--header-text-size);
 
 }
 
