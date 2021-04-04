@@ -47,7 +47,7 @@
 
         <div id="header">
 
-            <h1 id="title"> <?php echo $title ?> </h1>
+            <img id="icon" src="<?php echo get_site_icon_url(); ?>">
 
             <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
 
