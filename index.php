@@ -61,7 +61,7 @@
 
                 echo get_edition();
                 echo "<br/>";
-                echo get_edition( get_the_date("Y m", $post) );
+                echo get_edition( get_the_date("Y m", $post->ID) );
                 echo "<br/>";
 
                 if( get_edition() == get_edition( get_the_date("Y m") ) ) { ?>
