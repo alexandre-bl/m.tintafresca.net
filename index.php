@@ -57,14 +57,11 @@
                 )
             );
 
+            $i = 0;
+
             foreach( $posts as $post ) {
 
-                echo get_edition();
-                echo "<br/>";
-                echo get_edition( get_the_date("Y m", $post->ID) );
-                echo "<br/>";
-
-                if( get_edition() == get_edition( get_the_date("Y m") ) ) { ?>
+                if( get_edition() == get_edition( get_the_date("Y m") ) or $i < 15 ) { ?>
 
                     <div class="post">
                     <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
@@ -80,7 +77,11 @@
                     </a>
                     </div>
 
-                <?php }
+                <?php 
+                
+                $i += 1;
+
+                }
                 
             }
 
