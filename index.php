@@ -37,14 +37,14 @@
         <link rel='stylesheet' href='<?php echo get_template_directory_uri()."/style.css"; ?> '>
 
         <meta charset="utf-8">
-        
+
     </head>
 
     <body>
 
         <div id="header">
 
-            <h1 id="title"> 
+            <h1 id="title"> <?php echo $title ?> </h1>
 
         </div>
 
