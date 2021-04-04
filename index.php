@@ -59,7 +59,7 @@
 
                 <div class="post">
 
-                    <div class="post_title"><?php echo $post->post_title ?></div>
+                    <div class="post_title"><?php echo $post->post_title; ?></div>
 
                     <img class="post_img">
 
