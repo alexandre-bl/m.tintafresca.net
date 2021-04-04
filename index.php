@@ -62,7 +62,9 @@
 
                     <h2 class="post_title"><?php echo $post->post_title; ?></h2>
 
-                    <img class="post_img">
+                    <img class="post_img" src="<?php 
+                        echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
+                    ?>">
 
                     <div class="post_title"></div>
 
