@@ -51,7 +51,7 @@
 
             <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
 
-            <p  id="diretor"> Diretor: <?php echo $editor; ?> </p>
+            <p  id="diretor"> Diretor: <?php echo $editor; ?> |</p>
 
         </div>
 
