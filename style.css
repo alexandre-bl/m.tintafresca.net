@@ -55,6 +55,7 @@ body, html {
     width: 90%;
 
     border-bottom: 2px solid var(--primary-color);
+    margin: 1em;
 }
 
 .post_link {
