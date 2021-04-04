@@ -62,6 +62,8 @@
 
             <p  id="data"> Data: <?php echo $date; ?> </p>
 
+            <img id="menu_button" src="<?php echo get_template_directory_uri()."/hamburger.png"; ?>">
+
         </div>
 
         <div id="posts"> <?php
