@@ -60,6 +60,9 @@ body, html {
 }
 
 #title {
+    color: var(--light-color);
+    text-decoration: none;
+
     font-size: var(--header-title-size);
 
     position: absolute;
