@@ -164,7 +164,7 @@ body, html {
 #pages a {
 
     color: var(--light-color);
-    margin: 1em;;
+    padding: 1em;;
     font-size: 3em;
 
 }
