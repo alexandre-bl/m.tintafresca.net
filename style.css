@@ -147,6 +147,11 @@ body, html {
 #pages {
 
     background-color: var(--grey-color);
+
+}
+
+a {
+    
     color: var(--light-color);
 
 }
