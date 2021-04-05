@@ -10,4 +10,8 @@
         echo $sing_title;
     ?></h1>
 
+    <img id="post_img" src="<?php
+        echo $meta_img;
+    ?>">
+
 </div>
