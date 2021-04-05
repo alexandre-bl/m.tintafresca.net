@@ -64,7 +64,7 @@ body, html {
     color: var(--light-color);
     background-color: var(--primary-color);
 
-    border-top: var(--light-color);
+    border-top: 2px solid var(--light-color);
 
 }
 
