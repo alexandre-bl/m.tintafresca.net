@@ -109,7 +109,7 @@ body, html {
 #diretor {
 
     position: absolute;
-    bottom: -10%;
+    top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
@@ -123,7 +123,7 @@ body, html {
 #data {
 
     position: absolute;
-    bottom: -10%;
+    top: 50%;
     right: 1%;
 
     transform: translate(-20%, -50%);
@@ -136,7 +136,7 @@ body, html {
 
 #menu_button {
     position: absolute;
-    top: 0;
+    top: 50%;
     right:  1%;
 
     transform: translate(-50%, 10%);
