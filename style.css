@@ -124,7 +124,7 @@ body, html {
     top: 50%;
     right: 1%;
 
-    transform: translate(0%, -50%);
+    transform: translate(-5%, -50%);
     
     margin: 0;
 
