@@ -12,7 +12,7 @@
 
         if( $page != "pages" ) {
 
-            $og = $_SERVER['REQUEST_URI'].$_SERVER['QUERY_STRING'];
+            $og = $_SERVER['REQUEST_URI'];
 
             echo get_site_url();
             echo "?page=pages&og=$og";
