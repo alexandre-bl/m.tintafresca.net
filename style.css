@@ -55,7 +55,7 @@ body, html {
 
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: var(--header-height);
+    top: calc( var(--header-height) + 2em );
     left: 0;
 
     width: 100%;
