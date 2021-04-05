@@ -4,14 +4,16 @@
 
         $post = get_post();
 
+        $content = $post->post_content;
+
     ?>
 
     <h1 id="post_title"><?php
         echo $sing_title;
     ?></h1>
 
-    <img id="post_img" src="<?php
-        echo $meta_img;
-    ?>">
+    <?php
+        echo $content;
+    ?>
 
 </div>
