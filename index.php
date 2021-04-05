@@ -64,6 +64,10 @@
 
             require_once __DIR__ . "/site_front/posts.php";
 
+        } else if( $page == "singular" ) {
+
+            require_once __DIR__ . "/site_front/singular.php";
+
         }
 
     ?> </body>
