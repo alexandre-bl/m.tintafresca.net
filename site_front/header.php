@@ -10,11 +10,16 @@
 
     <a href="<?php
 
-        echo get_site_url();
-
         if( $page != "pages" ) {
 
-            echo "?page=pages";
+            $og = $_SERVER['REQUEST_URI'].$_SERVER['QUERY_STRING'];
+
+            echo get_site_url();
+            echo "?page=pages&og=$og";
+
+        } else {
+
+            echo get_site_url()."/".$_GET["og"];
 
         }
 
