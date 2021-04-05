@@ -1,7 +1,18 @@
 <div id="posts"> <?php
 
+    if( !empty( $_GET["category"] ) ) {
+
+        $category = get_cat_ID( $_GET["category"] );
+
+    } else {
+
+        $category = 0;
+
+    }
+
     $posts = get_posts( array(
-        'numberposts' => -1 
+        'numberposts' => -1,
+        'category' =>    $category
         )
     );
 
