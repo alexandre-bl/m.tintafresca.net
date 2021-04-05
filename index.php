@@ -8,7 +8,7 @@
     $logo = wp_get_attachment_image_src( $logo_id , 'full' )[0];
     
     $title = get_bloginfo( 'name' );
-    $sing_title = $title
+    $sing_title = $title;
 
     $meta_img = get_site_icon_url();
     if( is_single() ) {
