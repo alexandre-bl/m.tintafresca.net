@@ -180,10 +180,22 @@ body, html {
 
 }
 
+#singular img {
+
+    min-width: 50%;
+
+}
+
 #post_title {
 
     font-size: 3em;
     margin-top: 0;
+
+}
+
+#post_content {
+
+    font-size: 1em;
 
 }
 
