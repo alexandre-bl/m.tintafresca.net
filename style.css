@@ -161,10 +161,15 @@ body, html {
 
 }
 
+#pages li {
+
+    padding: 1em;
+
+}
+
 #pages a {
 
     color: var(--light-color);
-    padding: 1em;;
     font-size: 3em;
 
 }
