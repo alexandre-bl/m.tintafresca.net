@@ -15,7 +15,7 @@
             $og = $_SERVER['REQUEST_URI'];
 
             echo get_site_url();
-            echo "?page=pages&og=$og";
+            echo "?pages=yes&og=$og";
 
         } else {
 

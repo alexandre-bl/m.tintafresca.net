@@ -33,9 +33,9 @@ function page() {
 
         $page = "singular";
 
-    } else if( !empty( $_GET["page"] ) ) {
+    } else if( !empty( $_GET["pages"] ) ) {
 
-        $page = $_GET["page"];
+        $page = "pages";
 
     }
 
