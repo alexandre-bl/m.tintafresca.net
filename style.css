@@ -16,7 +16,7 @@
     --light-color:   #fff;
     --font:          Arial;
 
-    --header-height: 100px;
+    --header-height: 75px;
 
     --header-title-size: 3em;
     --header-text-size:  2em;
@@ -48,6 +48,25 @@ body, html {
 
     color: var(--light-color);
     background-color: var(--primary-color);
+}
+
+#sub_header {
+
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: var(--header-height);
+    left: 0;
+
+    width: 100%;
+    height: auto;
+
+    padding: 1em;
+
+    color: var(--light-color);
+    background-color: var(--primary-color);
+
+    border-top: var(--light-color);
+
 }
 
 #icon {

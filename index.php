@@ -50,6 +50,7 @@
     <body> <?php
 
         require_once __DIR__ . "/site_front/header.php";
+        require_once __DIR__ . "/site_front/sub_header.php";
         require_once __DIR__ . "/site_front/posts.php";
 
     ?> </body>
