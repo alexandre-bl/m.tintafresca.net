@@ -68,7 +68,7 @@ body, html {
     font-size: var(--header-title-size);
 
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 2%;
 
     transform: translate(45%, -110%);
