@@ -14,7 +14,7 @@
 
         if( $page != "pages" ) {
 
-            echo "?page='pages'";
+            echo "?page=pages";
 
         }
 
