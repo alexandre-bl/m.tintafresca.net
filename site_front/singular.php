@@ -12,8 +12,8 @@
         echo $sing_title;
     ?></h1>
 
-    <?php
+    <div id="post_content"><?php
         echo $content;
-    ?>
+    ?></div>
 
 </div>
