@@ -216,3 +216,43 @@ body, html {
 .post_img {
     width: 100%;
 }
+
+/* I don't even know anymore: */
+img.alignright {
+    float: right;
+    margin: 0 0 16px 16px;
+}
+img.alignleft {
+    float: left;
+    margin: 0 16px 16px 0;
+}
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignright {
+    float: right;
+}
+.alignleft {
+    float: left;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption-text {
+    text-align: center;
+    padding-top: 3.2px;
+    padding-bottom: 3.2px;
+    margin: 0;
+    font-weight: bold;
+}
+.post .wp-caption {
+    display: none;
+    height: 0;
+    width: 0 !important;
+    overflow: visible;
+    z-index: 3;
+}
