@@ -161,6 +161,8 @@ body, html {
 
     color: var(--light-color);
 
+    font-size: 2em;
+
 }
 
 .post {
