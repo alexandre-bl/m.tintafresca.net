@@ -13,7 +13,7 @@
     ?></h1>
 
     <div id="post_content"><?php
-        echo $content;
+        echo apply_filters( 'the_content',  $content );
     ?></div>
 
 </div>
