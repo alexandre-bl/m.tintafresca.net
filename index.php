@@ -47,62 +47,11 @@
 
     </head>
 
-    <body>
+    <body> <?php
 
-        <div id="header">
+        require_once __DIR__ . "/site_front/header.php";
+        require_once __DIR__ . "/site_front/posts.php";
 
-            <a href="<?php echo get_site_url(); ?>">
-                <img id="icon" src="<?php echo $logo; ?>">
-                <h1 id="title"><?php echo $title; ?></h1>
-            </a>
-
-            <p  id="edition"> Edição: <?php echo get_edition(); ?> </p>
-
-            <p  id="diretor"> Diretor: <?php echo $editor; ?> </p>
-
-            <p  id="data"> Data: <?php echo $date; ?> </p>
-
-            <img id="menu_button" src="<?php echo get_template_directory_uri()."/hamburger.png"; ?>">
-
-        </div>
-
-        <div id="posts"> <?php
-
-            $posts = get_posts( array(
-                'numberposts' => -1 
-                )
-            );
-
-            $i = 0;
-
-            foreach( $posts as $post ) {
-
-                if( get_edition() == get_edition( get_the_date("Y m") ) or $i < 15 ) {
-                    
-                    ?> <div class="post">
-
-                        <a class="post_link" href="<?php echo get_post_permalink($post->ID); ?>">
-
-                            <h2 class="post_title"><?php echo $post->post_title; ?></h2>
-
-                            <img class="post_img" src="<?php 
-                                echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' )[0];
-                            ?>">
-
-                            <div class="desc"></div>
-
-                        </a>
-
-                    </div> <?php 
-                
-                    $i += 1;
-
-                }
-                
-            }
-
-        ?> </div>
-
-    </body>
+    ?> </body>
 
 </html>
