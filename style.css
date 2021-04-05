@@ -147,7 +147,7 @@ body, html {
 #pages {
 
     background-color: var(--grey-color);
-    height: calc( 100% - var(--header-height) - var(--sub_header-height) );
+    height: calc( 100% - var(--header-height) - var(--sub_header-height) - 3px );
 
 }
 
