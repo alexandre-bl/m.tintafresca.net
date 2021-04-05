@@ -147,11 +147,18 @@ body, html {
 #pages {
 
     background-color: var(--grey-color);
+    height: calc( 100% - var(--header-height) - var(--sub_header-height) );
 
 }
 
-a {
-    
+#pages ul {
+
+    margin: 0;
+
+}
+
+#pages a {
+
     color: var(--light-color);
 
 }
