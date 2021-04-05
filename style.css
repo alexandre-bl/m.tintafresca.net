@@ -45,8 +45,6 @@ body, html {
     width: 100%;
     height: var(--header-height);
 
-    padding: 1em;
-
     color: var(--light-color);
     background-color: var(--primary-color);
 }
@@ -55,7 +53,7 @@ body, html {
 
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: calc( var(--header-height) + 2em );
+    top: var(--header-height);
     left: 0;
 
     width: 100%;
