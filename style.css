@@ -147,7 +147,7 @@ body, html {
 #pages {
     padding-top: 1em;
     background-color: var(--grey-color);
-    height: calc( 100% - var(--header-height) - var(--sub_header-height) - 3px );
+    min-height: calc( 100% - var(--header-height) - var(--sub_header-height) - 3px );
 
 }
 
