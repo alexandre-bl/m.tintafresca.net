@@ -59,7 +59,7 @@ body, html {
     left: 0;
 
     width: 100%;
-    height: auto;
+    height: var(--sub_header-height);
 
     color: var(--light-color);
     background-color: var(--primary-color);
