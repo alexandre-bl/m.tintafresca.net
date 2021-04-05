@@ -25,4 +25,22 @@ function get_edition($date=null) {
 
 }
 
+function page() {
+
+    $page = "posts";
+
+    if( is_singular() ) {
+
+        $page = "singular";
+
+    } else if( !empty( $_GET["page"] ) ) {
+
+        $page = $_GET["page"];
+
+    }
+
+    return $page;
+
+}
+
 ?>

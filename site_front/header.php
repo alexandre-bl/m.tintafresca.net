@@ -3,7 +3,7 @@
     <a href="<?php echo get_site_url(); ?>">
 
         <img id="icon" src="<?php echo $logo; ?>">
-        
+
         <h1 id="title"><?php echo $title; ?></h1>
 
     </a>
