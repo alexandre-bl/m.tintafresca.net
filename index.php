@@ -39,7 +39,7 @@
         <title><?php echo $title; ?></title>
         <meta name="description" content="<?php echo $desc; ?>">
         <meta name="og:image" content="<?php echo $meta_img; ?>">
-        <link rel="icon" href="<?php echo get_site_icon_url(); ?>">
+        <link rel="icon" href="<?php echo $logo; ?>">
 
         <link rel='stylesheet' href='<?php echo get_template_directory_uri()."/style.css"; ?> '>
 
