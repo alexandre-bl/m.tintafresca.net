@@ -51,7 +51,7 @@
 
         <?php if( $page == "pages" ) {
 
-        echo "<meta name="robots" content="noindex,nofollow" />";
+            echo "<meta name="robots" content="noindex,nofollow" />";
 
         } ?>
 
