@@ -49,6 +49,13 @@
 
         <meta charset="utf-8">
 
+        <?php if( $page == "pages" ) {
+
+        echo "<meta name="robots" content="noindex,nofollow" />";
+
+        } ?>
+
+
     </head>
 
     <body> <?php
