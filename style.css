@@ -57,6 +57,13 @@ video {
     background-color: var(--primary-color);
 }
 
+#header_add {
+
+    width: 100%;
+    max-width: 100%;
+
+}
+
 #sub_header {
 
     position: -webkit-sticky; /* Safari */
