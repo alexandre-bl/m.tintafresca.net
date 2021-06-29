@@ -1,6 +1,5 @@
 <?php
 
-echo "got here";
 global $wpdb;
 $table_name = "adds";
 $table_name = $wpdb->prefix . $table_name;
@@ -13,8 +12,9 @@ $query = $wpdb->get_results(" SELECT * FROM $table_name ");
 
 $add = array( "img" => "", "url" => "" );
 
+echo $query;
+
 if( !empty( $query[0] ) ) {
-    echo "got here";
     $add["img"] = str_replace( "http://tintafresca.net", "https://tintafresca.net", $query[0]->img );
     $add["url"] = str_replace( "http://tintafresca.net", "https://tintafresca.net", $query[0]->link);
 }
