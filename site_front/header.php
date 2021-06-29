@@ -10,7 +10,7 @@ dbDelta(" CREATE TABLE IF NOT EXISTS $table_name ( img TEXT, link TEXT ) $charse
 
 $query = $wpdb->get_results(" SELECT * FROM $table_name ");
 
-$add = array( "img" => "", "url" => "" );
+$add = array( "img" => "test", "url" => "" );
 
 if( !empty( $query[0] ) ) { $add["img"]  = str_replace( "http://tintafresca.net", "https://tintafresca.net", $query[0]->img );
                             $add["url"] = str_replace( "http://tintafresca.net", "https://tintafresca.net", $query[0]->link); }
