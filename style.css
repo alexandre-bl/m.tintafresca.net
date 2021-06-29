@@ -61,6 +61,12 @@ video {
 
     display: block;
     width: 100%;
+
+}
+
+#header_add img {
+
+    width: 100%;
     max-width: 100%;
 
 }
