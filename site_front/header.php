@@ -1,5 +1,6 @@
 <?php
 
+echo "got here";
 global $wpdb;
 $table_name = "adds";
 $table_name = $wpdb->prefix . $table_name;
