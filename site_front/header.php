@@ -13,8 +13,8 @@ $query = $wpdb->get_results(" SELECT * FROM $table_name ");
 $add = array( "img" => "", "url" => "" );
 
 if( !empty( $query[0] ) ) {
-    $add["img"] = str_replace( "http://tintafresca.net", "https://tintafresca.net", $query[0]->img );
-    $add["url"] = str_replace( "http://tintafresca.net", "https://tintafresca.net", $query[0]->link);
+    $add["img"] = wp_get_attachment_url( $query[0]->img );
+    $add["url"] = $query[0]->link;
 }
 
 ?>
