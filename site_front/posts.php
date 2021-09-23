@@ -11,7 +11,7 @@
     }
 
     $posts = get_posts( array(
-        'numberposts' => 200,
+        'numberposts' => 100,
         'category' =>    $category
         )
     );
